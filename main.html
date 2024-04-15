@@ -8,59 +8,43 @@
 
 <body>
 
-	<form method="post">
-	
-		<label >Name</label>
-		<br>
-		<input type="text" id="name" required>
-		<br>
+<form method="post">
 
-		<label >Email</label>
-		<br>
-		<input type="email" id="email" required>
-		<br>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" required><br>
 
-		<label >Gender</label>
-		<br>
-		<input type="radio" id="male" name="gender" value="male" required>
-		<label >Male</label><br>
-		<input type="radio" id="female" name="gender" value="female" required>
-	    <label ">Female</label><br>
-	    <input type="radio" id="other" name="gender" value="other" required>
-		<label >Other</label><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" required><br>
 
-		<label >Laptop Brands</label>
-		<br>
-		<select id="Laptop Brands">
-			<option>Apple</option>
-			<option>Asus</option>
-			<option>HP</option>
-		</select>
-		<br>
+        <label for="gen">Gender</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br>
 
-		<label >Age</label>
-		<br>
-		<input type="number" id="age" required>
-		<br>
+        <label for="laptop">Laptop Brands</label><br>
+        <select id="laptop" required>
+            <option>Apple</option>
+            <option>Asus</option>
+            <option>HP</option>
+        </select><br>
 
-		<label >Date of Birth</label>
-		<br>
-		<input type="date" id="dob" required>
-		<br>
+        <label for="age">Age</label><br>
+        <input type="number" id="age" required><br>
 
-		<label >Password</label>
-		<br>
-		<input type="password" id="password" required>
-		<br>
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" id="dob" required><br>
 
-		<label >Portfolio URL</label>
-		<br>
-		<input type="url" id="portfolio" >
-		<br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" required><br>
 
-		<button type="submit">Submit</button>
-	</form>
+        <label for="portfolio">Portfolio URL</label><br>
+        <input type="url" id="portfolio"><br>
 
+        <button type="submit">Submit</button>
+    </form>
 	
     <script type="text/javascript" src="./script.js">
 </script>
